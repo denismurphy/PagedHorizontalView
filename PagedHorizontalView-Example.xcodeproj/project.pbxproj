@@ -7,69 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54433BAA1DAA5CD50032AF9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54433BA91DAA5CD50032AF9C /* AppDelegate.swift */; };
-		54433BAC1DAA5CD50032AF9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54433BAB1DAA5CD50032AF9C /* ViewController.swift */; };
-		54433BAF1DAA5CD50032AF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54433BAD1DAA5CD50032AF9C /* Main.storyboard */; };
-		54433BB11DAA5CD50032AF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54433BB01DAA5CD50032AF9C /* Assets.xcassets */; };
-		54433BB41DAA5CD50032AF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54433BB21DAA5CD50032AF9C /* LaunchScreen.storyboard */; };
 		54433BC41DAA5CEC0032AF9C /* PagedHorizontalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54433BC21DAA5CEC0032AF9C /* PagedHorizontalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54433BC71DAA5CEC0032AF9C /* PagedHorizontalView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54433BC01DAA5CEC0032AF9C /* PagedHorizontalView.framework */; };
-		54433BC81DAA5CEC0032AF9C /* PagedHorizontalView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54433BC01DAA5CEC0032AF9C /* PagedHorizontalView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		54433BCE1DAA5D020032AF9C /* PagedHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54433BCD1DAA5D020032AF9C /* PagedHorizontalView.swift */; };
-		54433BD01DAA5D390032AF9C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54433BCF1DAA5D390032AF9C /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		54433BC51DAA5CEC0032AF9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54433B9E1DAA5CD50032AF9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54433BBF1DAA5CEC0032AF9C;
-			remoteInfo = PagedHorizontalView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		54433BCC1DAA5CEC0032AF9C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				54433BC81DAA5CEC0032AF9C /* PagedHorizontalView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		54433BA61DAA5CD50032AF9C /* PagedHorizontalView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PagedHorizontalView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54433BA91DAA5CD50032AF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54433BAB1DAA5CD50032AF9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54433BAE1DAA5CD50032AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54433BB01DAA5CD50032AF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54433BB31DAA5CD50032AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54433BB51DAA5CD50032AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54433BC01DAA5CEC0032AF9C /* PagedHorizontalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagedHorizontalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54433BC21DAA5CEC0032AF9C /* PagedHorizontalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagedHorizontalView.h; sourceTree = "<group>"; };
 		54433BC31DAA5CEC0032AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54433BCD1DAA5D020032AF9C /* PagedHorizontalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedHorizontalView.swift; sourceTree = "<group>"; };
-		54433BCF1DAA5D390032AF9C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		54433BD21DAA5DC10032AF9C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		54433BD31DAA5DC10032AF9C /* PagedHorizontalView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = PagedHorizontalView.podspec; sourceTree = "<group>"; };
 		54433BD41DAA5DC10032AF9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54433BA31DAA5CD50032AF9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54433BC71DAA5CEC0032AF9C /* PagedHorizontalView.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54433BBC1DAA5CEC0032AF9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,7 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				54433BD11DAA5DAF0032AF9C /* ... */,
-				54433BA81DAA5CD50032AF9C /* PagedHorizontalView-Example */,
 				54433BC11DAA5CEC0032AF9C /* PagedHorizontalView */,
 				54433BA71DAA5CD50032AF9C /* Products */,
 			);
@@ -93,24 +44,9 @@
 		54433BA71DAA5CD50032AF9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54433BA61DAA5CD50032AF9C /* PagedHorizontalView-Example.app */,
 				54433BC01DAA5CEC0032AF9C /* PagedHorizontalView.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		54433BA81DAA5CD50032AF9C /* PagedHorizontalView-Example */ = {
-			isa = PBXGroup;
-			children = (
-				54433BCF1DAA5D390032AF9C /* CustomCollectionViewCell.swift */,
-				54433BA91DAA5CD50032AF9C /* AppDelegate.swift */,
-				54433BAB1DAA5CD50032AF9C /* ViewController.swift */,
-				54433BAD1DAA5CD50032AF9C /* Main.storyboard */,
-				54433BB01DAA5CD50032AF9C /* Assets.xcassets */,
-				54433BB21DAA5CD50032AF9C /* LaunchScreen.storyboard */,
-				54433BB51DAA5CD50032AF9C /* Info.plist */,
-			);
-			path = "PagedHorizontalView-Example";
 			sourceTree = "<group>";
 		};
 		54433BC11DAA5CEC0032AF9C /* PagedHorizontalView */ = {
@@ -147,25 +83,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54433BA51DAA5CD50032AF9C /* PagedHorizontalView-Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54433BB81DAA5CD50032AF9C /* Build configuration list for PBXNativeTarget "PagedHorizontalView-Example" */;
-			buildPhases = (
-				54433BA21DAA5CD50032AF9C /* Sources */,
-				54433BA31DAA5CD50032AF9C /* Frameworks */,
-				54433BA41DAA5CD50032AF9C /* Resources */,
-				54433BCC1DAA5CEC0032AF9C /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54433BC61DAA5CEC0032AF9C /* PBXTargetDependency */,
-			);
-			name = "PagedHorizontalView-Example";
-			productName = "PagedHorizontalView-Example";
-			productReference = 54433BA61DAA5CD50032AF9C /* PagedHorizontalView-Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		54433BBF1DAA5CEC0032AF9C /* PagedHorizontalView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54433BC91DAA5CEC0032AF9C /* Build configuration list for PBXNativeTarget "PagedHorizontalView" */;
@@ -194,13 +111,9 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Varaw;
 				TargetAttributes = {
-					54433BA51DAA5CD50032AF9C = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
 					54433BBF1DAA5CEC0032AF9C = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -218,23 +131,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54433BA51DAA5CD50032AF9C /* PagedHorizontalView-Example */,
 				54433BBF1DAA5CEC0032AF9C /* PagedHorizontalView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54433BA41DAA5CD50032AF9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54433BB41DAA5CD50032AF9C /* LaunchScreen.storyboard in Resources */,
-				54433BB11DAA5CD50032AF9C /* Assets.xcassets in Resources */,
-				54433BAF1DAA5CD50032AF9C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54433BBE1DAA5CEC0032AF9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,16 +147,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54433BA21DAA5CD50032AF9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54433BAC1DAA5CD50032AF9C /* ViewController.swift in Sources */,
-				54433BD01DAA5D390032AF9C /* CustomCollectionViewCell.swift in Sources */,
-				54433BAA1DAA5CD50032AF9C /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54433BBB1DAA5CEC0032AF9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,33 +156,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		54433BC61DAA5CEC0032AF9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54433BBF1DAA5CEC0032AF9C /* PagedHorizontalView */;
-			targetProxy = 54433BC51DAA5CEC0032AF9C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		54433BAD1DAA5CD50032AF9C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54433BAE1DAA5CD50032AF9C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		54433BB21DAA5CD50032AF9C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54433BB31DAA5CD50032AF9C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		54433BB61DAA5CD50032AF9C /* Debug */ = {
@@ -386,32 +251,6 @@
 			};
 			name = Release;
 		};
-		54433BB91DAA5CD50032AF9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "PagedHorizontalView-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.varaw.PagedHorizontalView-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		54433BBA1DAA5CD50032AF9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "PagedHorizontalView-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.varaw.PagedHorizontalView-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		54433BCA1DAA5CEC0032AF9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,7 +268,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -451,7 +291,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.varaw.PagedHorizontalView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -465,15 +306,6 @@
 			buildConfigurations = (
 				54433BB61DAA5CD50032AF9C /* Debug */,
 				54433BB71DAA5CD50032AF9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54433BB81DAA5CD50032AF9C /* Build configuration list for PBXNativeTarget "PagedHorizontalView-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				54433BB91DAA5CD50032AF9C /* Debug */,
-				54433BBA1DAA5CD50032AF9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
